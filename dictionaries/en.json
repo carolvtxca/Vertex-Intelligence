@@ -1,0 +1,315 @@
+{
+    "navigation": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About Us",
+        "contact": "Contact",
+        "getStarted": "Get Started"
+    },
+    "hero": {
+        "title": "Vertex Intelligence",
+        "subtitle": "Full-stack technical services for your business infrastructure.",
+        "cta": "Explore Services"
+    },
+    "trust": {
+        "title": "Trusted by Industry Leaders"
+    },
+    "whyUs": {
+        "title": "Why Choose Vertex?",
+        "items": {
+            "expertise": {
+                "title": "Domain Expertise",
+                "desc": "Specialized in industrial environments, understanding the unique challenges of warehouses and factories."
+            },
+            "efficiency": {
+                "title": "Rapid Deployment",
+                "desc": "Streamlined processes to get your infrastructure up and running faster than industry standards."
+            },
+            "reliability": {
+                "title": "24/7 Support",
+                "desc": "Dedicated support team ensuring your critical infrastructure never goes down."
+            }
+        }
+    },
+    "testimonials": {
+        "title": "What Our Clients Say",
+        "items": [
+            {
+                "quote": "Vertex provided exceptional service for our US warehouse expansion. Their team was professional and efficient.",
+                "author": "Operations Manager, Cainiao"
+            },
+            {
+                "quote": "The smart access control system has significantly improved our security and operational workflow.",
+                "author": "IT Director, Tolead"
+            },
+            {
+                "quote": "Reliable partner for our local infrastructure needs. Highly recommended for Chinese enterprises going global.",
+                "author": "Facility Manager, Xiyou"
+            }
+        ]
+    },
+    "workflow": {
+        "title": "Our Process",
+        "steps": {
+            "1": {
+                "title": "Consultation",
+                "desc": "We analyze your site and requirements."
+            },
+            "2": {
+                "title": "Planning",
+                "desc": "Custom design and engineering blueprint."
+            },
+            "3": {
+                "title": "Execution",
+                "desc": "Professional installation and testing."
+            },
+            "4": {
+                "title": "Support",
+                "desc": "Ongoing maintenance and optimization."
+            }
+        }
+    },
+    "services": {
+        "title": "Service Spectrum",
+        "items": {
+            "access": {
+                "title": "Smart Access Control",
+                "desc": "End-to-end access management from main warehouse entry to secure internal zones, ensuring safety and compliance.",
+                "features": {
+                    "1": {
+                        "title": "Smart Entry Solutions",
+                        "items": [
+                            "Mobile App / Bluetooth: Contactless entry via phone, enabling remote authorization for management.",
+                            "Key Cards / Fobs: Stable and cost-effective solution for large-scale employee access.",
+                            "Biometric / Pin Pad: Dual-authentication for high-security areas like server rooms or finance offices.",
+                            "Visitor Codes: Temporary time-bound access codes for interviewees or maintenance contractors."
+                        ]
+                    },
+                    "2": {
+                        "title": "Hardware Installation",
+                        "items": [
+                            "Maglocks / Electric Strikes: Customized installation for glass, fire, or roll-up doors.",
+                            "Request-to-Exit (RTE): Ensures rapid evacuation during power outages or emergencies.",
+                            "Smart Intercoms: One-touch calling for visitors with remote unlock via mobile or indoor stations."
+                        ]
+                    },
+                    "3": {
+                        "title": "Cloud Management",
+                        "items": [
+                            "Remote Authorization: Grant permissions to US employees instantly from anywhere in the world.",
+                            "Access Logs: Export detailed reports on who entered where and when.",
+                            "Door Ajar Alerts: Instant mobile notifications if a door is left open for too long."
+                        ]
+                    },
+                    "4": {
+                        "title": "Compliance & Maintenance",
+                        "items": [
+                            "Fire Alarm Integration: Automatic door release upon fire alarm trigger for life safety compliance.",
+                            "Licensed Installation: Strict adherence to local US electrical codes.",
+                            "Emergency Repair: Local team support for urgent access control failures."
+                        ]
+                    }
+                }
+            },
+            "ev": {
+                "title": "AGV / EV Charging Solutions",
+                "desc": "One-stop solution for robotics and EV energy replenishment, from power planning to government permitting.",
+                "features": {
+                    "1": {
+                        "title": "Site Assessment & Planning",
+                        "items": [
+                            "Power Load Analysis: Evaluate transformer capacity to prevent overload from new charging stations.",
+                            "Site Selection: Optimize charger layout based on traffic flow and building/grid constraints.",
+                            "Capacity Upgrades: Design and coordination with utility companies for transformer upgrades if needed."
+                        ]
+                    },
+                    "2": {
+                        "title": "Professional Installation",
+                        "items": [
+                            "Multi-Type Installation: Support for Level 2 AC and DC Fast Charging stations across various brands.",
+                            "Trenching & Conduit: Underground hard conduit laying and wiring strictly following US standards.",
+                            "Safety & Signage: Installation of protective bollards and designated parking stencils for insurance compliance."
+                        ]
+                    },
+                    "3": {
+                        "title": "Permitting & Compliance",
+                        "items": [
+                            "Permit Acquisition: Submission of electrical diagrams to the City for official construction permits.",
+                            "Fire & Safety Inspection: Ensuring installation meets fire codes and passing final government inspections."
+                        ]
+                    },
+                    "4": {
+                        "title": "Smart Operations",
+                        "items": [
+                            "Management Software: Real-time dashboard for usage monitoring, energy consumption, and billing.",
+                            "Safety Patrols: Regular checks on charging guns, cables, and GFI protection devices."
+                        ]
+                    }
+                }
+            },
+            "wifi": {
+                "title": "Industrial Wi-Fi Coverage",
+                "desc": "Specialized optimization for high-ceiling warehouses and complex metal interference environments.",
+                "features": {
+                    "1": {
+                        "title": "Site Survey & Design",
+                        "items": [
+                            "Heatmap Simulation: Professional software simulation to ensure full signal coverage in every aisle.",
+                            "Interference Avoidance: Detects and avoids interference from machinery, microwaves, or neighboring networks."
+                        ]
+                    },
+                    "2": {
+                        "title": "Industrial Hardware",
+                        "items": [
+                            "High-Bay Coverage: Directional antenna technology to overcome signal shielding from metal racking.",
+                            "Industrial APs: Anti-static, temperature-resistant, and durable wireless access points.",
+                            "Seamless Roaming: Zero-packet-loss roaming for forklifts and scanners moving between APs."
+                        ]
+                    },
+                    "3": {
+                        "title": "Security & Managment",
+                        "items": [
+                            "Network Isolation: Separate VLANs for office, scanners, and guests to secure corporate data.",
+                            "Device Monitoring: Real-time status tracking of all scanners/PDAs with instant failure detection.",
+                            "Remote Tuning: Remote configuration and optimization capabilities to minimize on-site visits."
+                        ]
+                    },
+                    "4": {
+                        "title": "Warehouse Scenarios",
+                        "items": [
+                            "Outdoor Coverage: High-power weatherproof Wi-Fi for loading docks and yards.",
+                            "Device Compatibility: Tuning for major scanner brands (Zebra, Honeywell) to resolve connectivity freezes."
+                        ]
+                    }
+                }
+            },
+            "cctv": {
+                "title": "HD Surveillance & AI Security",
+                "desc": "Immersive remote monitoring to protect your US assets from anywhere in the world.",
+                "features": {
+                    "1": {
+                        "title": "Full Scenario Deployment",
+                        "items": [
+                            "Zero Blind Spots: Strategic camera placement for racking, entrances, and loading docks.",
+                            "Industrial Hardware: 4K HD, Starlight Night Vision, and WDR cameras for clear images in all lighting conditions.",
+                            "Ruggedized Outdoor Units: Vandal-proof and weather-resistant cameras for all climates."
+                        ]
+                    },
+                    "2": {
+                        "title": "AI Intelligence",
+                        "items": [
+                            "Perimeter Defense: Virtual tripwire alerts pushed to mobile when boundaries are crossed after hours.",
+                            "LPR & Face Recognition: Logging of vehicles and personnel for efficient event retrieval.",
+                            "Behavior Detection: specialized detection for forklift speeding or missing safety gear."
+                        ]
+                    },
+                    "3": {
+                        "title": "Global Remote Access",
+                        "items": [
+                            "Smooth Playback: Cloud optimization allows smooth viewing from headquarters in China.",
+                            "Centralized Platform: Aggregate feeds from multiple US warehouses onto a single dashboard.",
+                            "Extended Storage: 30/60/90 day local storage configurations to meet insurance requirements."
+                        ]
+                    },
+                    "4": {
+                        "title": "Compliance & Maintenance",
+                        "items": [
+                            "Privacy Compliance: Camera positioning strictly following US privacy laws.",
+                            "Access Integration: Automatic video snapshots upon access card swipes.",
+                            "Regular Maintenance: On-site cleaning, angle adjustment, and firmware upgrades."
+                        ]
+                    }
+                }
+            },
+            "lighting": {
+                "title": "Industrial Lighting & Power",
+                "desc": "Optimize operational environments and significantly reduce warehouse energy consumption.",
+                "features": {
+                    "1": {
+                        "title": "Lighting Upgrade",
+                        "items": [
+                            "LED Retrofit: Replace old HID/Fluorescent fixtures with High-Bay LEDs (60%+ energy savings).",
+                            "Smart Sensors: Motion and daylight harvesting sensors to auto-dim/off when areas are vacant.",
+                            "Emergency Lighting: NFPA 101 compliant exit signs and emergency lights for safe evacuation."
+                        ]
+                    },
+                    "2": {
+                        "title": "Power Distribution",
+                        "items": [
+                            "Production Lines: Dedicated circuits and drops for machinery and packing stations.",
+                            "Conduit Runs: NEC-compliant EMT/Rigid metal conduit for fire and rodent protection.",
+                            "Office Power: Cubicle wiring and dedicated UPS circuits for server rooms."
+                        ]
+                    },
+                    "3": {
+                        "title": "System Maintenance",
+                        "items": [
+                            "Panel Upgrades: Load balancing and sub-panel installation for expanded capacity.",
+                            "Safety Audits: Thermal and insulation testing for aging internal wiring.",
+                            "Bill Optimization: Power factor correction and usage analysis to lower utility costs."
+                        ]
+                    },
+                    "4": {
+                        "title": "Permitting",
+                        "items": [
+                            "Permit Services: Handling all electrical permit applications with the City to ensure legal construction."
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "about": {
+        "hero": {
+            "title": "About Vertex Intelligence",
+            "subtitle": "Bridging the gap between global ambition and local execution. We are your technical partner for North American expansion.",
+            "cta": "Contact Us"
+        },
+        "story": {
+            "title": "Our Story",
+            "p1": "Founded with a vision to simplify industrial infrastructure, Vertex Intelligence has grown from a boutique consultancy into a full-stack technical services provider.",
+            "p2": "We recognized that international enterprises face unique challenges when expanding to North America—from complex regulations to technical fragmentation. Vertex was built to solve these problems, offering a unified, bilingual, and standard-compliant bridge for your business."
+        },
+        "values": {
+            "title": "Core Values",
+            "items": [
+                {
+                    "title": "Integrity",
+                    "desc": "We believe in transparent pricing, honest communication, and delivering exactly what we promise."
+                },
+                {
+                    "title": "Innovation",
+                    "desc": "We constantly explore new technologies to make your facilities smarter, safer, and more efficient."
+                },
+                {
+                    "title": "Excellence",
+                    "desc": "From the neatness of our cabling to the stability of our code, we take pride in high-quality craftsmanship."
+                }
+            ]
+        },
+        "stats": {
+            "years": "Years of Experience",
+            "projects": "Projects Delivered",
+            "clients": "Satisfied Clients",
+            "states": "States Covered"
+        },
+        "team": {
+            "title": "Meet The Team",
+            "subtitle": "Our greatest asset is our people.",
+            "desc": "Our diverse team of engineers, project managers, and technicians brings together decades of experience in IT, electrical engineering, and construction. We are united by a passion for technology and a commitment to your success."
+        }
+    },
+    "ctaSection": {
+        "title": "Ready to Upgrade Your Infrastructure?",
+        "subtitle": "Contact us today for a free consultation and site assessment.",
+        "button": "Get a Quote"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Send Message",
+        "info": "Contact Info"
+    }
+}
