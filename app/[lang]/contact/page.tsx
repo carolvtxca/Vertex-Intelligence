@@ -1,6 +1,7 @@
 import { getDictionary } from "@/lib/dictionaries";
 import { Locale } from "@/i18n-config";
-import { Phone, Mail, MapPin, Send } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
+import ContactForm from "@/components/ContactForm";
 
 export default async function Contact({ params: { lang } }: { params: { lang: Locale } }) {
     const dict = await getDictionary(lang);
@@ -59,24 +60,7 @@ export default async function Contact({ params: { lang } }: { params: { lang: Lo
 
                 {/* Form Side */}
                 <div className="md:w-1/2 p-8 md:p-12 bg-white dark:bg-slate-800 flex flex-col justify-center">
-                    <form className="space-y-6">
-                        <div>
-                            <label htmlFor="name" className="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2 uppercase tracking-wide">{dict.contact.name}</label>
-                            <input type="text" id="name" className="w-full px-4 py-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all placeholder-slate-400" placeholder={lang === 'en' ? "Your Name" : "您的姓名"} />
-                        </div>
-                        <div>
-                            <label htmlFor="email" className="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2 uppercase tracking-wide">{dict.contact.email}</label>
-                            <input type="email" id="email" className="w-full px-4 py-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all placeholder-slate-400" placeholder={lang === 'en' ? "name@company.com" : "您的邮箱"} />
-                        </div>
-                        <div>
-                            <label htmlFor="message" className="block text-sm font-bold text-slate-700 dark:text-slate-300 mb-2 uppercase tracking-wide">{dict.contact.message}</label>
-                            <textarea id="message" rows={4} className="w-full px-4 py-4 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white focus:ring-2 focus:ring-blue-500 outline-none transition-all placeholder-slate-400" placeholder={lang === 'en' ? "How can we help you?" : "请在此输入您的需求..."}></textarea>
-                        </div>
-                        <button type="submit" className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 flex items-center justify-center gap-2">
-                            {dict.contact.submit}
-                            <Send size={18} />
-                        </button>
-                    </form>
+                    <ContactForm dict={dict.contact} lang={lang} />
                 </div>
             </div>
         </div>

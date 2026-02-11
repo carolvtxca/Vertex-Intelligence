@@ -47,14 +47,17 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                         <div className="text-2xl font-black text-blue-600 flex items-center gap-2">
                             <span className="text-3xl">菜鸟</span> CAINIAO
                         </div>
-                        <div className="text-2xl font-black text-orange-500 flex items-center gap-2">
-                            <span className="text-3xl">西邮</span> XIYOU
+                        <div className="text-2xl font-black text-orange-500 tracking-tight">
+                            WESTERN POST
                         </div>
                         <div className="text-2xl font-bold text-slate-800 dark:text-white font-serif italic">
                             miHoYo
                         </div>
-                        <div className="text-2xl font-black text-red-600 tracking-tighter">
-                            TOLEAD
+                        <div className="text-2xl font-black text-slate-900 dark:text-white tracking-widest">
+                            LEOPARD
+                        </div>
+                        <div className="text-2xl font-bold text-indigo-600 tracking-wide font-mono">
+                            Xchange
                         </div>
                     </div>
                 </div>
