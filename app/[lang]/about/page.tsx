@@ -34,11 +34,16 @@ export default async function About({ params: { lang } }: { params: { lang: Loca
                         <div className="lg:w-1/2">
                             <div className="relative">
                                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-blue-100 dark:bg-blue-900 rounded-full z-0"></div>
-                                <img
-                                    src="/images/about/team.png"
-                                    alt="Vertex Team"
-                                    className="relative z-10 rounded-2xl shadow-2xl w-full object-cover"
-                                />
+                                <div className="relative z-10 rounded-2xl shadow-2xl overflow-hidden bg-black">
+                                    <video
+                                        controls
+                                        className="w-full h-auto"
+                                        poster="/images/about/team.png" // Use the original image as poster
+                                    >
+                                        <source src={lang === 'en' ? "/Vertex introduction_EN.mp4" : "/Vertex introduction_cn.mp4"} type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
                                 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-slate-100 dark:bg-slate-800 rounded-2xl z-0 -rotate-6"></div>
                             </div>
                         </div>
