@@ -36,6 +36,7 @@ export default async function About({ params: { lang } }: { params: { lang: Loca
                                 <div className="absolute -top-4 -left-4 w-24 h-24 bg-blue-100 dark:bg-blue-900 rounded-full z-0"></div>
                                 <div className="relative z-10 rounded-2xl shadow-2xl overflow-hidden bg-black">
                                     <video
+                                        key={lang}
                                         controls
                                         className="w-full h-auto"
                                         poster="/images/about/team.png" // Use the original image as poster
