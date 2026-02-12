@@ -40,7 +40,7 @@ export default async function About({ params: { lang } }: { params: { lang: Loca
                                         className="w-full h-auto"
                                         poster="/images/about/team.png" // Use the original image as poster
                                     >
-                                        <source src={lang === 'en' ? "/Vertex introduction_EN.mp4" : "/Vertex introduction_cn.mp4"} type="video/mp4" />
+                                        <source src={lang === 'en' ? "/vertex-introduction-en.mp4" : "/vertex-introduction-cn.mp4"} type="video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
                                 </div>
