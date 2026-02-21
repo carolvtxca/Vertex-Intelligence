@@ -47,9 +47,6 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                         <div className="text-2xl font-black text-blue-600 flex items-center gap-2">
                             <span className="text-3xl">菜鸟</span> CAINIAO
                         </div>
-                        <div className="text-2xl font-black text-orange-500 tracking-tight">
-                            WESTERN POST
-                        </div>
                         <div className="text-2xl font-bold text-slate-800 dark:text-white font-serif italic">
                             miHoYo
                         </div>
